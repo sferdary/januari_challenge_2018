@@ -12,13 +12,13 @@
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul class="navbar-nav text-center">
             <li class="nav-item active">
-                <a class="nav-link <?php echo HOME ?>" href="#">Home</a>
+                <a class="nav-link <?php echo HOME ?>" href="<?php echo HOMELINK?>">HOME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?php echo ARCHEOLOGIE ?>" href="#">Codeply</a>
+                <a class="nav-link <?php echo ARCHEOLOGIE ?>" href="<?php echo ARCHLINK?>">ARCHEOLOGIE</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?php echo CONTACT ?>" href="#">Link</a>
+                <a class="nav-link <?php echo CONTACT ?>" href="<?php echo CONTACTLINK?>">CONTACT</a>
             </li>
         </ul>
     </div>

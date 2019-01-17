@@ -5,16 +5,16 @@
  */
 $pagetitle = 'Bla';
 //RESOURCES
-$resources = 'resources';
+$resources = '../../resources';
 
 //NAVIGATION
-$home = 'active';
-$archeologie = '';
+$home = '';
+$archeologie = 'active';
 $contact = '';
 
-$homeLink = '';
-$archeologieLink = 'pages/archeologie';
-$contactLink = 'pages/contact';
+$homeLink = '../../';
+$archeologieLink = '';
+$contactLink = '../contact';
 
 define('PAGETITLE', $pagetitle);
 
@@ -27,6 +27,7 @@ define('CONTACT', $contact);
 define('HOMELINK', $homeLink);
 define('ARCHLINK', $archeologieLink);
 define('CONTACTLINK', $contactLink);
+
 require_once "{$resources}/view/layouts/header.php";
 ?>
     <div class="row home-content-row">

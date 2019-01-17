@@ -5,7 +5,8 @@
  */
 ?>
 </div>
-<script src="resources/js/popper.min.js"></script>
-<script src="resources/js/bootstrap.min.js"></script>
+</div>
+<script src="<?php echo RESOURCES?>/js/popper.min.js"></script>
+<script src="<?php echo RESOURCES?>/js/bootstrap.min.js"></script>
 </body>
 </html>

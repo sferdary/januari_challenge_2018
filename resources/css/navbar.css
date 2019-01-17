@@ -1,3 +1,7 @@
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
 form.nav-form {
     justify-content:center;
 }

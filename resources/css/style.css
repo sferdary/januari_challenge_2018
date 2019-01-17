@@ -1,8 +1,85 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: auto;
+    background: url("../view/img/5k-cloud-mountain-wallpaper.png") scroll no-repeat center top #1a3852 !important;
 }
 
-nav{
-    font-family: 'Montserrat', sans-serif;
-font-weight: 700;
+div.layer {
+    background-color: rgba(0, 0, 0, 0.45);
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+h2#title {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 25px;
+}
+a#title:hover,h2#title:hover{
+    color: #07bc77;
+}
+p#subtitle {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+div.home-content-row {
+    background: none !important;
+}
+
+div.home-content-col {
+    background-color: white;
+    margin: 10px;
+}
+
+div.hidden-home-content-col {
+    background: none;
+    margin: 10px;
+}
+
+div.empty {
+    height: 100px;
+}
+
+p.post-date{
+    color: #4e555b;
+    font-weight: 400;
+}
+p.post-title {
+    color: black;
+    font-weight: 700;
+}
+
+@media all and (max-width: 575px) {
+    div.home-content-col {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+
+@media all and (min-width: 992px) {
+    div.home-content-row {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    div.home-content-row {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+}
+
+@media all and (min-width: 1600px) {
+    div.home-content-row {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
 }
