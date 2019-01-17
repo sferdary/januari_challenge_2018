@@ -31,7 +31,7 @@ define('CONTACTLINK', $contactLink);
 require_once "{$resources}/view/layouts/header.php";
 ?>
     <div class="row home-content-row">
-        <div class="col-sm home-content-col">
+        <div class="col-sm sub-content-col">
             <div class="empty"></div>
             <p class="post-date">
                 19 januari 2019
@@ -39,41 +39,6 @@ require_once "{$resources}/view/layouts/header.php";
             <a href="#"><p class="post-title">
                     TIS WEER LENTE
                 </p></a>
-        </div>
-        <div class="col-sm home-content-col">
-            <div class="empty"></div>
-            <p class="post-date">
-                19 januari 2019
-            </p>
-            <a href="#"><p class="post-title">
-                    VERDER KIJKEN
-                </p></a>
-        </div>
-        <div class="col-sm home-content-col">
-            <div class="empty"></div>
-            <p class="post-date">
-                19 januari 2019
-            </p>
-            <a href="#"><p class="post-title">
-                    BACKPACKING
-                </p></a>
-        </div>
-    </div>
-    <div class="row home-content-row">
-        <div class="col-sm home-content-col">
-            <div class="empty"></div>
-            <p class="post-date">
-                19 januari 2019
-            </p>
-            <a href="#"><p class="post-title">
-                    WILDCAMPEREN
-                </p></a>
-        </div>
-        <div class="col-sm hidden-home-content-col">
-
-        </div>
-        <div class="col-sm hidden-home-content-col">
-
         </div>
     </div>
 

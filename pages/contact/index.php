@@ -2,6 +2,46 @@
 /**
  * Created by PhpStorm.
  * User: S. Ferdary
- * Date: 17/01/2019
- * Time: 14:18
  */
+$pagetitle = 'Bla';
+//RESOURCES
+$resources = '../../resources';
+
+//NAVIGATION
+$home = '';
+$archeologie = '';
+$contact = 'active';
+
+$homeLink = '../../';
+$archeologieLink = '../archeologie';
+$contactLink = '';
+
+define('PAGETITLE', $pagetitle);
+
+define('RESOURCES', $resources);
+
+define('HOME', $home);
+define('ARCHEOLOGIE', $archeologie);
+define('CONTACT', $contact);
+
+define('HOMELINK', $homeLink);
+define('ARCHLINK', $archeologieLink);
+define('CONTACTLINK', $contactLink);
+
+require_once "{$resources}/view/layouts/header.php";
+?>
+    <div class="row home-content-row">
+        <div class="col-sm sub-content-col">
+            <div class="empty"></div>
+            <p class="post-date">
+                19 januari 2019
+            </p>
+            <a href="#"><p class="post-title">
+                    TIS WEER LENTE
+                </p></a>
+        </div>
+    </div>
+
+
+<?php
+require_once "{$resources}/view/layouts/footer.php";

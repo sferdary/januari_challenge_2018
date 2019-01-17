@@ -3,6 +3,8 @@ body {
     width: 100%;
     height: auto;
     background: url("../view/img/5k-cloud-mountain-wallpaper.png") scroll no-repeat center top #1a3852 !important;
+    /*background-image: url("../view/img/5k-cloud-mountain-wallpaper.png");*/
+    background-size: cover, auto !important;
 }
 
 div.layer {
@@ -33,7 +35,7 @@ div.home-content-row {
     background: none !important;
 }
 
-div.home-content-col {
+div.home-content-col, div.sub-content-col {
     background-color: white;
     margin: 10px;
 }
@@ -57,7 +59,7 @@ p.post-title {
 }
 
 @media all and (max-width: 575px) {
-    div.home-content-col {
+    div.home-content-col, div.sub-content-col {
         margin-left: 10vw;
         margin-right: 10vw;
     }
