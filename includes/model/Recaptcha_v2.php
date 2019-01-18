@@ -6,7 +6,7 @@
 class ReCaptcha_v2
 {
     protected $public_key = '6LcatYoUAAAAAK47ulG7PSQb35KlwU0BDCaxWXSz';
-    protected $secret_key = '';
+    protected $secret_key = '6LcatYoUAAAAAIPVLY5esDWx6Mc2lcENnnPj-3y5';
 
     protected function getReCaptchaV2()
     {
