@@ -2,23 +2,20 @@
 /**
  * Created by PhpStorm.
  * User: S. Ferdary
- * Date: 17/01/2019
- * Time: 09:13
  */
-
 ?>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul class="navbar-nav text-center">
             <li class="nav-item">
-                <a class="nav-link <?php echo HOME ?>" href="<?php echo HOMELINK?>">HOME</a>
+                <a class="nav-link <?php echo HOME ?>" href="<?php echo HOMELINK ?>">HOME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?php echo ARCHEOLOGIE ?>" href="<?php echo ARCHLINK?>">ARCHEOLOGIE</a>
+                <a class="nav-link <?php echo ARCHEOLOGIE ?>" href="<?php echo ARCHLINK ?>">ARCHEOLOGIE</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?php echo CONTACT ?>" href="<?php echo CONTACTLINK?>">CONTACT</a>
+                <a class="nav-link <?php echo CONTACT ?>" href="<?php echo REACTIONLINK ?>">CONTACT</a>
             </li>
         </ul>
     </div>
@@ -31,8 +28,7 @@
         <ul class="navbar-nav ml-auto text-center">
             <li class="nav-item">
                 <form class="form-inline nav-form">
-                    <input class="form-control form-control-sm mr-3" type="text" placeholder="Search"
-                           aria-label="Search">
+                    <input class="form-control form-control-sm mr-3" type="text" aria-label="Search">
                 </form>
             </li>
             <li><br></li>

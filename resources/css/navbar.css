@@ -10,3 +10,15 @@ form.nav-form {
 ::-webkit-input-placeholder {
     text-align: center;
 }
+
+button#left {
+    position: fixed;
+    top: 50%;
+    left: 0;
+}
+
+button#right {
+    position: fixed;
+    top: 50%;
+    right: 0;
+}

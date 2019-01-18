@@ -3,32 +3,23 @@
  * Created by PhpStorm.
  * User: S. Ferdary
  */
-$pagetitle = 'Bla';
-//RESOURCES
-$resources = 'resources';
 
-//NAVIGATION
+$pagetitle = 'Home';
+$resources = 'resources';
 $home = 'active';
 $archeologie = '';
 $contact = '';
-
 $homeLink = '';
 $archeologieLink = 'pages/archeologie';
-$contactLink = 'pages/contact';
+$contactLink = 'pages/Contact';
+$arrow_right = 'pages/archeologie';
 
-define('PAGETITLE', $pagetitle);
-
-define('RESOURCES', $resources);
-
-define('HOME', $home);
-define('ARCHEOLOGIE', $archeologie);
-define('CONTACT', $contact);
-
-define('HOMELINK', $homeLink);
-define('ARCHLINK', $archeologieLink);
-define('CONTACTLINK', $contactLink);
+require_once 'includes/handlers/definition_handler.php';
 require_once "{$resources}/view/layouts/header.php";
 ?>
+    <a href="<?php echo ARROW_RIGHT; ?>">
+        <button type="button" class="btn btn-dark" id="right">→</button>
+    </a>
     <div class="row home-content-row">
         <div class="col-sm home-content-col">
             <div class="empty"></div>
@@ -75,7 +66,5 @@ require_once "{$resources}/view/layouts/header.php";
 
         </div>
     </div>
-
-
 <?php
 require_once "{$resources}/view/layouts/footer.php";

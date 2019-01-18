@@ -1,10 +1,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: auto;
+    background: url("../view/img/5k-cloud-mountain-wallpaper-blur.png") no-repeat center top #1a3852 !important;
+    background-size: cover, auto !important;
+}
+
+img {
     width: 100%;
     height: auto;
-    background: url("../view/img/5k-cloud-mountain-wallpaper.png") scroll no-repeat center top #1a3852 !important;
-    /*background-image: url("../view/img/5k-cloud-mountain-wallpaper.png");*/
-    background-size: cover, auto !important;
 }
 
 div.layer {
@@ -13,7 +17,7 @@ div.layer {
     left: 0;
     width: 100%;
     height: 100%;
-
+    z-index: -1;
 }
 
 h2#title {
@@ -22,13 +26,20 @@ h2#title {
     font-weight: 400;
     margin-top: 25px;
 }
-a#title:hover,h2#title:hover{
+
+a#title:hover, h2#title:hover {
     color: #07bc77;
 }
+
 p#subtitle {
     color: white;
     text-align: center;
     font-weight: 400;
+}
+
+div.content-wrapper {
+    background-color: white;
+    padding: 10px;
 }
 
 div.home-content-row {
@@ -40,6 +51,24 @@ div.home-content-col, div.sub-content-col {
     margin: 10px;
 }
 
+div.form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.g-recaptcha {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.center-content {
+    width: available;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 div.hidden-home-content-col {
     background: none;
     margin: 10px;
@@ -49,10 +78,15 @@ div.empty {
     height: 100px;
 }
 
-p.post-date{
+div.empty-sm {
+    height: 25px;
+}
+
+p.post-date {
     color: #4e555b;
     font-weight: 400;
 }
+
 p.post-title {
     color: black;
     font-weight: 700;
