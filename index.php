@@ -11,7 +11,7 @@ $archeologie = '';
 $contact = '';
 $homeLink = '';
 $archeologieLink = 'pages/archeologie';
-$contactLink = 'pages/Contact';
+$contactLink = 'pages/contact';
 $arrow_right = 'pages/archeologie';
 
 require_once 'includes/handlers/definition_handler.php';

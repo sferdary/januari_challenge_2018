@@ -11,9 +11,9 @@ $archeologie = 'active';
 $contact = '';
 $homeLink = '../../';
 $archeologieLink = '';
-$contactLink = '../Contact';
+$contactLink = '../contact';
 $arrow_left = '../../';
-$arrow_right = '../Contact';
+$arrow_right = '../contact';
 
 include_once '../../includes/controller/Recaptcha_public_key.php';
 $public_key_obj = new Recaptcha_public_key();

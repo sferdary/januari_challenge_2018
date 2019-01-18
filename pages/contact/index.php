@@ -4,7 +4,7 @@
  * User: S. Ferdary
  */
 
-$pagetitle = 'Contact';
+$pagetitle = 'contact';
 $resources = '../../resources';
 $home = '';
 $archeologie = '';
@@ -28,7 +28,7 @@ require_once "{$resources}/view/layouts/header.php";
     <div class="row home-content-row">
         <div class="col-sm sub-content-col">
             <h2 class="post-title text-center">
-                REACTIES
+                CONTACT
             </h2>
             <?php require_once "{$resources}/view/includes/form.php"; ?>
         </div>
